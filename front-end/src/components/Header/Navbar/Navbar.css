@@ -1,0 +1,162 @@
+.mainbar__course-icon {
+  width: 4rem;
+  margin-left: 2rem;
+}
+
+.mainbar__mobile--user-account {
+  display: none;
+}
+
+.category-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.category-menu__item {
+  padding: 1.5rem 0 0;
+  position: relative;
+}
+
+.category-menu__link {
+  color: var(--primary-color);
+  font-size: 2rem;
+  line-height: 1rem;
+  padding-left: 2rem;
+}
+
+.mainbar__content .category-menu__item::after {
+  content: ' \203a';
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  transform: scale(1.5);
+  transition: all ease 300ms;
+  color: var(--primary-color)
+}
+
+.category-menu__link span {
+  color: var(--text-color-light);
+  font-size: 1.2rem;
+  transition: all ease 300ms;
+  line-height: 2;
+}
+
+.category-menu__submenu {
+  align-items: start;
+  border-radius: 1rem;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 2rem 2rem 1rem;
+  transition: all ease 300ms;
+  opacity: 0;
+  z-index: 100;
+}
+
+.category-menu__submenu-item {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--anty-body-color);
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.logo__link {
+  display: block;
+}
+
+.logo__image {
+  width: 100%;
+  height: auto;
+}
+
+
+/* <==================== start mobile-menu ====================> */
+
+.body-cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -5;
+  opacity: 0;
+}
+
+.mainbar__mobile-menu-icon,
+.close-mobile-menu {
+  display: none;
+}
+
+.close-mobile-menu {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  top: 2rem;
+  left: 2rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-mobile-menu__line {
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.close-mobile-menu__line::after {
+  content: '';
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
+.close-mobile-menu__line,
+.close-mobile-menu__line::after {
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+
+.mainbar__mobile-menu-label {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainbar__mobile-menu-line {
+  position: relative;
+}
+
+.mainbar__mobile-menu-line,
+.mainbar__mobile-menu-line::after,
+.mainbar__mobile-menu-line::before {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  transition: all ease 300ms;
+}
+
+.mainbar__mobile-menu-line::before {
+  position: absolute;
+  top: 0.9rem;
+}
+
+.mainbar__mobile-menu-line::after {
+  position: absolute;
+  top: -0.9rem;
+}

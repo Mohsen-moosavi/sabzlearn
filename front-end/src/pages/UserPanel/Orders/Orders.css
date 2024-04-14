@@ -1,0 +1,24 @@
+/* ============================== Content Main Style ============================== */
+  .order__table {
+    width: 100%;
+  }
+  .order__table-header {
+    border-bottom: 1px solid var(--primary-color);
+  
+  }
+  .order__table-header-item {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    color: var(--anty-body-color);
+  }
+  .order__table-body-list {
+    border-bottom: 1px solid var(--primary-color);
+  }
+  .order__table-body-item {
+    font-size: 1.4rem;
+    color: var(--anty-body-color);
+    padding: 1rem 0;
+  }
+  /* ============================== Content Main Style ============================== */
+  

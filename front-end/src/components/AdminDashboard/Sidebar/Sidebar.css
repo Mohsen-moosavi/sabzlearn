@@ -1,0 +1,87 @@
+.sidebar {
+    /* background-color: #17203f; */
+    background-color: var(--footer-color);
+    height: 100vh;
+    overflow-y: auto;
+    width: 8rem;
+    transition: all ease 300ms;
+    overflow-x: hidden;
+  }
+
+  .sidebar--open{
+    width: 25rem;
+  }
+
+  .sidebar *{
+    font-family: var(--adminpanel-font);
+  }
+  .sidebar .sidebar-header {
+    border-bottom: 1px solid rgba(131, 131, 131, 0.63);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+  }
+  .sidebar .sidebar-header .sidebar-logo {
+    padding: 15px 25px;
+  }
+  .sidebar .sidebar-header .sidebar-logo img {
+    width: 4rem;
+    transition: all ease 300ms;
+  }
+
+  .sidebar--open .sidebar-logo img{
+    width: 7rem !important;
+  }
+  .sidebar .sidebar-header .sidebar-menu-btn {
+    position: absolute;
+    top: 1.3rem;
+    left: 1.5rem;
+    display: none;
+  }
+  .sidebar .sidebar-header .sidebar-menu-btn .sidebar-menu-btn__icon {
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  .sidebar .sidebar-menu {
+    margin-top: 20px;
+  }
+  .sidebar .sidebar-menu ul li{
+    overflow: hidden;
+  }
+  .sidebar .sidebar-menu ul .active-menu a{
+    background-color: var(--body-color) !important;
+    color: var(--primary-color);
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+  }
+  .sidebar .sidebar-menu ul li a {
+    color: #fff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem 25px;
+    font-size: 2rem;
+    text-wrap: nowrap;
+    overflow: hidden;
+    transition: all ease 300ms;
+  }
+  .sidebar .sidebar-menu ul li a:hover {
+    opacity: 0.3;
+  }
+  .sidebar .sidebar-menu ul li a .sidebar-menu__icon {
+    font-size: 2.5rem;
+    display: block;
+    width: 5rem;
+    margin-left: 3rem;
+    overflow: visible;
+  }

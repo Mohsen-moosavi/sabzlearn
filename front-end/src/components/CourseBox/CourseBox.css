@@ -1,0 +1,146 @@
+.course-box {
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.5rem var(--shadow-color);
+  padding: 1rem;
+  transition: all ease 300ms;
+  background-color: var(--course-box-color);
+}
+
+.course-box--in-carousel{
+  margin: 1rem;
+}
+
+.course-box:hover {
+  transform: translateY(-1rem);
+}
+
+.course-box__cover {
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem var(--shadow-color);
+}
+
+
+.course-box__img {
+  width: 100%;
+  margin-bottom: -5px;
+  transition: all ease 300ms;
+}
+
+.course-box:hover .course-box__img {
+  transform: scale(1.1);
+}
+
+.course-box__content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: start;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.course-box__top-content {
+  text-align: center;
+  position: relative;
+}
+
+.course-box__title {
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 163, 0.1);
+  border-radius: 1rem;
+  color: var(--primary-color);
+  font-family: var(--main-font-bold);
+  transition: all ease 300ms;
+  text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course-box__title:hover {
+  color: var(--secondary-color);
+}
+
+.course-box__discount {
+  position: absolute;
+  bottom: -0.5rem;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0 0.7rem;
+  height: 2rem;
+  line-height: 1.4;
+  left: 15%;
+  color: #fff;
+}
+
+.course-box__score {
+  position: absolute;
+  bottom: -1rem;
+  right: 15%;
+  background-color: #2bce574a;
+  backdrop-filter: blur(22px);
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.course-box__bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7rem;
+}
+
+.course-box__teacher {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.course-box__teacher-icon {
+  font-size: 3.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 1rem;
+  line-height: 0.7;
+  padding: 1rem 0.5rem;
+}
+
+.course-box__del-price {
+  color: var(--text-color-light);
+  font-size: 1.1rem;
+  text-decoration: line-through;
+  margin-bottom: 0.5rem;
+}
+
+.course-box__price {
+  color: var(--primary-color);
+  font-size: 2rem;
+  line-height: 1.1;
+  font-family: var(--main-font-black);
+}
+
+.course-box__price-yeka {
+  color: var(--text-color-light);
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+}
+
+.course-box__teacher-name {
+  background-color: rgba(0, 0, 163, 0.1);
+  padding: 0.5rem 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+  font-size: 1.2rem;
+  color: var(--anty-body-color);
+  box-shadow: inset 0 0 1rem -0rem var(--shadow-color);
+}
+
+.course-box__price {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}

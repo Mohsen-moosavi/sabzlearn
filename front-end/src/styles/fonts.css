@@ -1,0 +1,45 @@
+/* IRANSans */
+
+@font-face {
+    font-family: 'iransans';
+    src: url(./../fonts/IRANSans/IRANSans.ttf);
+}
+
+@font-face {
+    font-family: 'iransans ultralight';
+    src: url(./../fonts/IRANSans/IRANSans_UltraLight.ttf);
+}
+
+@font-face {
+    font-family: 'iransans medium';
+    src: url(./../fonts//IRANSans/IRANSans_Medium.ttf);
+}
+
+@font-face {
+    font-family: 'iransans light';
+    src: url(./../fonts/IRANSans/IRANSans_Light.ttf);
+}
+
+@font-face {
+    font-family: 'iransans bold';
+    src: url(./../fonts/IRANSans/IRANSans_Bold.ttf);
+}
+
+@font-face {
+    font-family: 'iransans black';
+    src: url(./../fonts/IRANSans/IRANSans_Black.ttf);
+}
+
+/* Lalezar */
+
+@font-face {
+    font-family: 'lalezar';
+    src: url(./../fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+} 
+
+/* vaziry */
+
+@font-face {
+    font-family: 'vazir';
+    src: url(./../fonts/Vazir/Vazir.ttf);
+} 

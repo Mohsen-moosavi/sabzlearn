@@ -1,0 +1,51 @@
+:root{
+    /* fonts */
+
+    --main-font : 'iransans';
+    --main-font-ultraLight : 'iransans ultralight';
+    --main-font-medium : 'iransans medium';
+    --main-font-light : 'iransans light';
+    --main-font-bold : 'iransans bold';
+    --main-font-black : 'iransans black';
+
+    --secound-font : 'vazir';
+
+    --adminpanel-font : 'lalezar';
+
+
+    /* colors */
+    --primary-color : #0000a3;
+    --secondary-color : #2bce56;
+
+    --title-color : #000;
+    --text-color :#3B3735;
+    --text-color-light : #808080;
+
+    --attention-color : #FC2E20;
+
+    --body-color : #fff;
+    --anty-body-color : #232029;
+    --course-box-color : #fff;
+    --footer-color : #0000a3;
+    --shadow-color : rgba(0,0,0,0.25); 
+    --bread-crum-color : #f0f2f7; 
+
+    --auth-page-background : linear-gradient(to top,var(--primary-color) -300%,#2d5157 80%);
+
+    /* //////////////// */
+
+    /* --primary-color : #3281b9;
+
+    --body-color : #1b262c;
+    --anty-body-color : #fff;
+    --course-box-color : #02383C;
+    --footer-color : #02383C;
+    --shadow-color : rgba(255,255,255,0.2);
+    --bread-crum-color : var(--primary-color);
+
+    --title-color : #fff;
+    --text-color :#fff;
+    --text-color-light : #FEFDED;
+
+    --auth-page-background :linear-gradient(to top,#000 ,#2d5157); */
+}

@@ -1,0 +1,19 @@
+.p-user-sidebar{
+    width: 100%;
+}
+
+.p-user-sidebar__name {
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    font-family: var(--main-font-bold);
+  }
+  .p-user-sidebar__list {
+    margin-top: 0.7rem;
+  }
+  .p-user-sidebar__item {
+    display: block;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--anty-body-color);
+  }

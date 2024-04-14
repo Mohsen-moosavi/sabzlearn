@@ -1,0 +1,112 @@
+
+.landing__cover {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.landing__image {
+  width: 100%;
+}
+
+.landing__content {
+  text-align: start;
+  max-width: 40rem;
+}
+
+.landing__title {
+  color: var(--text-color-light);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.landing__title-text {
+  font-size: 4rem;
+  font-family: var(--main-font-black);
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+.landing__description {
+  font-size: 1.4rem;
+  color: var(--text-color-light);
+}
+
+.landing__academy-infos {
+  margin-top: 3rem;
+}
+
+.landing__academy-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing__academy-icon {
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+.landing__academy-info {
+  font-family: var(--main-font-black);
+  color: var(--primary-color);
+}
+
+.landing__academy-title {
+  color: var(--text-color-light);
+  white-space: nowrap;
+}
+
+.search-form {
+  margin-top: 2rem;
+  border: none;
+  background-color: var(--primary-color);
+  box-shadow: 0rem 0rem 10px var(--shadow-color);
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 30rem;
+  position: relative;
+  height: 4.4rem;
+}
+
+.search-form__input {
+  background-color: transparent;
+  color: #fff;
+  outline: 0;
+  border: 0 !important;
+  padding: 1rem 1.5rem;
+}
+
+.search-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.search-form__submit {
+  cursor: pointer;
+  border: 4px solid var(--primary-color);
+  background-color: #fff;
+  width: 4.4rem;
+  border-radius: 50%;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+}
+
+.search-form__submit-icon {
+  color: var(--primary-color);
+  font-size: 2rem;
+  transition: all ease 300ms;
+
+}
+
+.search-form__submit:hover .search-form__submit-icon {
+  transform: scale(1.3);
+}

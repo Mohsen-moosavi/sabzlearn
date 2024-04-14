@@ -1,0 +1,356 @@
+@media (max-width: 992px) {
+
+    /*<=== start admin-dashboard ===>*/
+    .p-admin-topbar * {
+        font-size: 1.5rem;
+    }
+
+    .p-admin-topbar__intro-text {
+        font-size: 1.3rem;
+    }
+
+    .p-admin-topbar__profile-image img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    /*<=== end admin-dashboard ===>*/
+}
+
+
+@media (max-width : 768px) {
+
+    /*<=== start all courses ===>*/
+    .courses-top-bar__selection * {
+        font-size: 1.3rem;
+    }
+
+    .courses-top-bar__selection-title,
+    .courses-top-bar__selection-item {
+        padding: 0.5rem;
+    }
+
+    .courses-top-bar__form {
+        width: 20rem;
+    }
+
+    .courses-top-bar__form * {
+        font-size: 1.3rem;
+    }
+
+    .courses-top-bar__input {
+        padding: .7rem 1.5rem 0.7rem 2.5rem;
+    }
+
+    /*<=== end all courses ===>*/
+
+    /*<=== start admin-dashboard ===>*/
+    .p-admin-topbar__intro {
+        display: none;
+    }
+
+    /*<=== end admin-dashboard ===>*/
+
+    /*<=== start user-panel ===>*/
+    .p-user-main {
+        box-shadow: 0 0 1rem var(--shadow-color);
+        border-radius: 2rem;
+        padding: 2rem 1rem;
+        border-right: none;
+    }
+
+    .p-user-sidebar__item {
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .p-user-sidebar__item:last-child {
+        border-width: 3px;
+    }
+
+    /*<=== end user-panel ===>*/
+
+}
+
+@media (max-width : 576px) {
+
+    /*<=== start all courses ===>*/
+    .courses-top-bar {
+        padding: 1rem;
+        border-radius: 3rem;
+    }
+
+    .courses-top-bar__selection-title {
+        height: auto;
+        padding: 0.8rem 0.9rem;
+    }
+
+    .courses-top-bar__selection *,
+    .courses-top-bar__form * {
+        font-size: 0.9rem;
+    }
+
+    .courses-top-bar__form {
+        width: 11rem;
+    }
+
+    .courses-top-bar__input {
+        padding: 0.5rem 1rem 0.5rem 1.8rem;
+    }
+
+    /*<=== end all courses ===>*/
+
+    /*<=== start auth pages ===>*/
+    .g-recaptcha {
+        transform: scale(0.77) translateX(7.5rem);
+        transform-origin: 0 0;
+    }
+
+    .recaptcha {
+        margin-bottom: 0;
+    }
+
+    /*<=== end auth pages ===>*/
+
+    /*<=== start breadcrum ===>*/
+    .breadcrumb * {
+        font-size: 1rem;
+    }
+
+    .breadcrumb__content {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .breadcrumb__home-content-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /*<=== end breadcrum ===>*/
+
+    /*<=== start course-info ===>*/
+
+    .introduction,
+    .course-info,
+    .techer-details,
+    .comments-text,
+    .comments__respond,
+    .article {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .course-boxes__box {
+        margin: 0.5rem 0;
+    }
+
+    .course-boxes__box-left {
+        margin-right: 0.5rem;
+    }
+
+
+    .course-boxes__box-right-icon {
+        font-size: 1.7rem;
+    }
+
+    .course-boxes__box-left-title,
+    .course-boxes__box-left--subtitle {
+        font-size: 1.2rem;
+    }
+
+    .introduction__accordion-count {
+        border: none;
+    }
+
+    .introduction__accordion-body {
+        padding: 0.7rem 0.5rem;
+    }
+
+    .introduction__accordion-link {
+        font-size: 1.3rem;
+    }
+
+    .introduction__accordion-icon,
+    .techer-details__header-titles {
+        margin: 0 1rem;
+    }
+
+    .introduction__accordion,
+    .techer-details__header-link {
+        font-size: 1.2rem;
+    }
+
+    .techer-details__header {
+        align-items: center;
+    }
+
+    .techer-details__header-img {
+        width: 4rem;
+    }
+
+    .techer-details__header-name,
+    .techer-details__header-skill {
+        font-size: 1rem;
+    }
+
+    .techer-details__footer {
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .comments-text * {
+        font-size: 1.2rem;
+    }
+
+    .comments-text__item-header-username {
+        width: 100%;
+    }
+
+    /*<=== end course-info ===>*/
+
+    /*<=== start admin-dashboard ===>*/
+    .sidebar {
+        width: 25rem;
+        position: fixed;
+        right: -25rem;
+        top: 0;
+        z-index: 100;
+    }
+
+    .sidebar--open {
+        right: 0;
+    }
+
+    .sidebar-menu-btn {
+        display: block !important;
+    }
+
+    .p-admin-topbar * {
+        font-size: 1.2rem;
+    }
+
+    .p-admin-topbar__profile-image img {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .sidebar-handler__button,
+    .p-admin-topbar__vertical-line {
+        transform: scale(0.85);
+    }
+
+    .p-admi-selection * {
+        font-size: 1rem;
+    }
+
+    .main__box-left {
+        padding: 1rem 0;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .main__box-bottom {
+        padding: 0 1rem;
+    }
+
+    .main__box-title {
+        margin-top: 1rem;
+    }
+
+    .ticket-content__category {
+        font-size: 1.1rem;
+        text-wrap: wrap;
+    }
+
+    .ticket-content__name {
+        font-size: 1.2rem;
+        text-wrap: wrap;
+    }
+
+    .ticket-send__answer-user-box,
+    .ticket-send__answer-box {
+        padding: 1.5rem 1rem;
+    }
+
+    /*<=== end admin-dashboard ===>*/
+
+    /*<=== start session-page ===>*/
+    .session-section * {
+        font-size: 1.2rem;
+    }
+
+    .session-sidebar__header-link,
+    .session-sidebar__haeder-icon {
+        font-size: 2rem;
+    }
+
+    .episode-header__left{
+        gap: 0.5rem;
+    }
+
+    .episode-header__left-text {
+        max-width: 11rem;
+    }
+
+    /*<=== end session-page ===>*/
+    .article__header {
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+
+}
+
+@media (max-width : 320px) {
+
+    /*<=== start auth pages ===>*/
+    .auth__input {
+        font-size: 1.3rem;
+        padding: 0.4rem 0;
+    }
+
+    .g-recaptcha {
+        transform: scale(0.7) translateX(9.5rem);
+        transform-origin: 0 0;
+    }
+
+    .auth__submit {
+        padding: 0.7rem 0;
+    }
+
+    /*<=== end auth pages ===>*/
+
+    /*<=== start breadcrum ===>*/
+    .breadcrumb__content {
+        padding: 1rem 1.3rem;
+    }
+
+    .breadcrumb__list {
+        margin-right: 1rem;
+    }
+
+    .breadcrumb__icon {
+        margin: 0 0.4rem;
+        font-size: 1rem;
+    }
+
+    .breadcrumb__link {
+        font-size: 0.8rem;
+    }
+
+    /*<=== end breadcrum ===>*/
+}
+
+@media (min-width : 576px) {
+    .sidebar-handler__line--open {
+        background-color: transparent;
+    }
+
+    .sidebar-handler__line--open::after {
+        transform: translateY(-1.1rem) rotate(45deg);
+    }
+
+    .sidebar-handler__line--open::before {
+        transform: translateY(1.1rem) rotate(-45deg);
+    }
+}

@@ -1,0 +1,228 @@
+
+.footer{
+  background-color: var(--footer-color);
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  padding: 3rem 0 1rem;
+  margin-top: 6rem;
+  overflow: hidden;
+}
+
+.footer *{
+  color: #fff;
+}
+
+.footer__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.footer__title{
+  font-size: 2.5rem;
+  font-family: var(--main-font-bold);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.footer__description{
+  opacity: 0.9;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: var(--main-font-light);
+}
+
+.footer__menu{
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.footer__quick-item{
+  margin-bottom: 1rem;
+}
+
+.footer__quick-link:hover{
+  color: var(--secondary-color);
+}
+
+.footer__contact-item{
+  margin-bottom: 5rem;
+  font-family: var(--main-font-bold);
+  position: relative;
+  overflow: visible;
+}
+
+.footer__bold-contact-item{
+  position: absolute;
+  left: 0;
+  bottom: -4rem;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+
+.enamad{
+  width: 100%;
+  border-radius: 2rem;
+  max-width: 15rem;
+}
+
+.footer__bottom{
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.scroll-top{
+  width: 5rem;
+  background-color: #1e873a;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  border-top-left-radius: 1rem;
+  min-width: 5rem;
+}
+
+.scroll-top i{
+  font-size: 3rem;
+}
+
+.footer__bottom-right{
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e873a;
+  padding: 2rem 2.5rem;
+  border-radius: 3rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer__copyrighting{
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.footer__social-wrapper , .footer__social-icon{
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-icon{
+  margin-right: 1rem;
+  font-size: 3.4rem;
+}
+
+.footer__social-icon , .scroll-top i{
+  cursor: pointer;
+  transition: all ease 300ms;
+}
+
+.footer__social-icon:hover , .scroll-top:hover i{
+  color: var(--primary-color);
+}
+
+.footer__nnewsRegistration-wrapper{
+  margin-top: 2rem;
+}
+
+.footer__newsRegistration{
+  display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer__newsRegistration-input{
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  color: var(--anty-body-color) !important;
+  background-color: var(--body-color);
+  border: none;
+  outline: none;
+}
+
+.footer__newsRegistration-btn{
+  border: none;
+    padding: 1rem 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    background-color: var(--secondary-color);
+    opacity: 0.6;
+}
+
+.newsRegistration__btn-success{
+  opacity: 1;
+}
+
+
+
+
+/* ////////////////////////// */
+/* .footer-widgets {
+    background-color: #f0f2f7;
+    border-radius: 1rem;
+    padding: 4rem 3.5rem;
+    position: relative;
+    margin-bottom: 5rem;
+    text-align: start;
+  }
+  
+  .footer-widgets::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 4rem;
+    width: 50rem;
+    background-color: var(--primary-color);
+    z-index: -1;
+    bottom: -1.5rem;
+    border-radius: 5rem;
+  }
+  
+  .footer-widgets__text {
+    color: #7d7e7f;
+  }
+  
+  .footer-widgets__link {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .footer__newsRegistration{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__newsRegistration-input{
+    flex: 1;
+    border: 2px solid gray !important;
+    border-left: none !important;
+    background-color: white;
+    padding: 5px;
+  }
+
+  .footer__newsRegistration-btn{
+    color: white;
+    border: 0;
+    padding: 6px 5px;
+  }
+
+  .newsRegistration__btn-success{
+    background-color: var(--primary-color);
+  }
+
+  .newsRegistration__btn-error{
+    background-color: #ce2b2b;
+  } */

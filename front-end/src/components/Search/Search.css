@@ -1,0 +1,29 @@
+.courses-top-bar__form {
+    position: relative;
+    width: 30rem;
+}
+
+.courses-top-bar__input {
+    font-size: 1.5rem;
+    width: 100%;
+    border: 1px solid var(--body-color);
+    padding: 0.8rem 1.5rem 0.8rem 4.2rem;
+    border-radius: 0.3rem;
+    background-color: var(--body-color);
+    color: var(--anty-body-color);
+    border-radius: 2rem;
+    outline: 0;
+}
+
+.courses-top-bar__input::placeholder{
+    color: var(--anty-body-color);
+}
+
+.courses-top-bar__search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: var(--anty-body-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+}

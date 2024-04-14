@@ -1,0 +1,23 @@
+.last-course {
+    position: relative;
+    padding: 10rem 0 4rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    /* background: linear-gradient(60deg, rgb(19, 66, 223), rgb(1, 25, 94)); */
+    background: var(--footer-color);
+    overflow: hidden;
+}
+
+
+.last-course__vawe {
+    position: absolute;
+    top: 0rem;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    fill : var(--body-color)
+}
+
+.last-course .course-box{
+    background-color: var(--body-color);
+}

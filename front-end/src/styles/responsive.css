@@ -1,0 +1,549 @@
+@media (max-width : 1200px) {
+
+    /* <==================== start servisec ====================> */
+
+    .service {
+        height: 18rem;
+    }
+
+    .service--vertical {
+        height: 37.5rem;
+    }
+
+    .service__title {
+        font-size: 1.5rem;
+    }
+
+    .service__bold-title {
+        font-size: 3rem;
+    }
+
+    /* <=========== end servisec ==========> */
+
+
+    /* <==================== start course-box ====================> */
+    .course-box__title {
+        padding: 1.3rem;
+        font-size: 1.5rem;
+    }
+
+    .course-box__discount,
+    .course-box__score {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .course-box__teacher-icon {
+        font-size: 3.5rem;
+    }
+
+    /* <=========== end course-box ==========> */
+
+}
+
+
+@media (max-width : 992px) {
+    /* <==================== start topbar ====================> */
+
+    .topbar {
+        font-size: 0.9rem;
+    }
+
+    .topbar__user-icon {
+        width: 1.5rem;
+    }
+
+    .them-handler {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .them-handler__darck-moon,
+    .them-handler__light-moon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    /* <=========== end topbar ==========> */
+
+    /* <==================== start mainbar ====================> */
+
+    .category-menu {
+        gap: 1rem;
+    }
+
+    .category-menu__item {
+        padding-top: 0.5rem;
+    }
+
+    .category-menu__link {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    .category-menu__link span {
+        font-size: 1rem;
+    }
+
+    .category-menu__item::after {
+        font-size: 1.5rem;
+        bottom: 0rem !important;
+    }
+
+    .logo__image {
+        width: 100px;
+    }
+
+    /* <=========== end mainbar ==========> */
+
+    /* <==================== start main ====================> */
+    /* <==================== start landing ====================> */
+    .landing__title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .landing__academy-icon {
+        width: 5rem;
+    }
+
+    .landing__academy-title {
+        font-size: 1rem;
+    }
+
+    .landing__title-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .landing__description {
+        font-size: 1rem;
+    }
+
+    .search-form {
+        width: 20rem;
+    }
+
+    .search-form__input {
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+
+    /* <=========== end landing ==========> */
+
+    /* <==================== start section-header ====================> */
+
+    .section-header__icon-wrapper {
+        padding: 2rem 1rem 0.4rem;
+    }
+
+    .section-header__title {
+        margin-right: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .section-header__bold-title {
+        font-size: 2rem;
+    }
+
+    .section-header__show-more-btn,
+    .section-header__show-more-icon {
+        padding: 0.4rem 1rem;
+    }
+
+    /* <=========== end section-header ==========> */
+    /* <=========== end main ==========> */
+}
+
+@media (min-width : 768px) {
+
+    .category-menu__submenu {
+        pointer-events: none;
+        width: 20rem;
+        background-color: var(--body-color);
+        transform: translatey(-0.5rem);
+        box-shadow: 0 0 2rem var(--shadow-color);
+        position: absolute;
+    }
+
+    .category-menu__item:hover .category-menu__submenu {
+        opacity: 1;
+        transform: translatey(0.5rem);
+        pointer-events: all;
+    }
+
+    .category-menu__item:hover::after {
+        transform: scale(1.5) rotate(-90deg);
+    }
+}
+
+
+@media (max-width : 768px) {
+    /* <==================== start header ====================> */
+
+    .header {
+        border-radius: 0 !important;
+    }
+
+
+    .topbar {
+        display: none;
+    }
+
+    .mainbar__mobile-menu-icon {
+        display: flex;
+    }
+
+    .category-menu__link {
+        font-size: 1.5rem;
+    }
+
+    .them-handler--mobile{
+        display: flex;
+    }
+
+    /* <==================== start mobile-menu ====================> */
+
+    .close-mobile-menu {
+        display: flex;
+    }
+
+    .mainbar__content {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        right: -25rem;
+        height: 100vh;
+        width: 25rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        background-color: rgb(43, 43, 145);
+        padding: 4rem 2rem;
+        color: white;
+        overflow: auto;
+        transition: all ease 300ms;
+    }
+
+    .mainbar__content--mobile-mode-open {
+        right: 0;
+    }
+
+    .mainbar__content--mobile-mode-open~.body-cover {
+        opacity: 1;
+    }
+
+    .mainbar__mobile--user-account {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1.4rem;
+        padding-bottom: 3rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #fff;
+    }
+
+    .mainbar__user-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+        background-color: #fff;
+        padding: 0.6rem;
+        border-radius: 50%;
+        box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+    }
+
+    .mainbar__user-name:hover {
+        color: var(--secondary-color);
+    }
+
+    .category-menu {
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .category-menu__item {
+        width: 100%;
+        position: relative;
+    }
+
+
+    .category-menu__item::after {
+        left: 0;
+        bottom: unset !important;
+        top: 0.5rem;
+    }
+
+    .category-menu__item--open::after {
+        transform: scale(1.5) rotate(-90deg) !important;
+    }
+
+    .category-menu__link,
+    .category-menu__item::after {
+        color: #fff !important;
+    }
+
+
+    .mainbar__content .mainbar__course-icon,
+    .mainbar__content .category-menu__link span,
+    .mainbar__content .category-menu__link br {
+        display: none;
+    }
+
+    .category-menu__submenu{
+        width: 100%;
+        height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .category-menu__item--open .category-menu__submenu {
+        display: flex;
+        height: auto;
+        opacity: 1;
+        padding-top: 1rem; 
+        padding-bottom: 1rem; 
+    }
+
+    .category-menu__submenu-item{
+        color: #fff;
+    }
+    
+
+    .mainbar__content .category-menu__submenu-link:hover {
+        color: var(--secondary-color);
+    }
+
+    /* <=========== end mobile-menu ==========> */
+    /* <=========== end header ==========> */
+
+
+    /* <==================== start main ====================> */
+    /* <==================== start landing ====================> */
+
+    .landing__cover {
+        display: inline;
+    }
+
+    .landing__title {
+        font-size: 1.4rem;
+    }
+
+    .landing__bold-title {
+        font-size: 2.2rem;
+    }
+
+    .landing__academy-info {
+        font-size: 1.2rem;
+    }
+
+    .landing__academy-title {
+        font-size: 1.1rem;
+    }
+
+    .search-form {
+        width: 16rem;
+        height: 3rem;
+    }
+
+    .search-form__input {
+        padding: 0.5rem 1rem;
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+    .search-form__submit {
+        width: 3rem;
+    }
+
+    .search-form__submit i::before {
+        font-size: 1.2rem;
+    }
+
+    /* <=========== end landing ==========> */
+
+    /* <==================== start servisec ====================> */
+
+    .service {
+        height: 10rem;
+        border-radius: 1.5rem;
+    }
+
+    .service__shadow {
+        padding: 2rem 1.5rem;
+    }
+
+    .service--vertical {
+        height: 20.5rem;
+    }
+
+    .service__title {
+        font-size: 1rem;
+    }
+
+    .service__bold-title {
+        font-size: 1.6rem;
+    }
+
+    /* <=========== end servisec ==========> */
+    /* <=========== end main ==========> */
+
+    /* <==================== start footer ====================> */
+    .footer__copyrighting{
+        font-size: 1.3rem;
+    }
+
+    .footer__social-icon{
+        font-size: 1.5rem;
+    }
+    /* <=========== end footer ==========> */
+}
+
+@media (max-width : 576px) {
+
+    /* <==================== start main ====================> */
+    /* <==================== start landing ====================> */
+    .landing__cover {
+        width: 90%;
+        max-width: 28rem;
+        margin-bottom: 2rem;
+    }
+
+    .landing__content {
+        text-align: center;
+        max-width: 50rem;
+        margin: 0 auto;
+    }
+
+    .search-form {
+        width: 100%;
+        height: 3.6rem;
+        max-width: 35rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-form__input {
+        width: 100%;
+    }
+
+    .search-form__submit {
+        width: 3.6rem;
+    }
+
+
+    /* <=========== end landing ==========> */
+
+    /* <==================== start last-course ====================> */
+
+    .last-course {
+        padding-top: 7rem;
+    }
+
+
+    .last-course__vawe {
+        top: -4rem;
+    }
+
+    /* <=========== end last-course ==========> */
+
+    .services{
+        padding-top: 1rem;
+    }
+    /* <=========== end main ==========> */
+
+    /* <==================== start footer ====================> */
+
+    .scroll-top{
+        min-width: 2rem;
+        width: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    .scroll-top i{
+        font-size: 2rem;
+    }
+
+    .footer{
+        margin-top: 3rem;
+      }
+
+    .footer__bottom-right{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0.5rem;
+        text-align: center;
+        border-radius: 2rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .footer__copyrighting{
+        font-size: 1.1rem;
+    }
+    /* <=========== end footer ==========> */
+
+    /* <==================== start section-header ====================> */
+
+    .section-header{
+        margin: 0 0.5rem;
+    }
+
+    .section-header__icon {
+        font-size: 2rem;
+    }
+
+    .section-header__title {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    .section-header__bold-title {
+        font-size: 1.7rem;
+    }
+
+    .section-header__show-more-btn,
+    .section-header__show-more-icon {
+        padding: 0.5rem 0.6rem;
+        font-size: 1rem;
+    }
+
+    .section-header__show-more-icon {
+        margin-right: 0.3rem;
+    }
+
+    /* <=========== end section-header ==========> */
+
+    /* <==================== start course-box ====================> */
+
+    .course-box__teacher-icon {
+        font-size: 3.5rem;
+    }
+
+    .course-box__teacher-name {
+        padding: 0.3rem 0.7rem;
+    }
+
+    .course-box__price {
+        font-size: 1.6rem;
+    }
+
+    .course-box__price-yeka {
+        font-size: 1.3rem;
+    }
+
+    /* <=========== end course-box ==========> */
+
+
+    /* <==================== start helper-classes ====================> */
+    .landing__title-text {
+        font-size: 2.5rem;
+    }
+
+    .app-title{
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+    /* <=========== end helper-classes ==========> */
+}

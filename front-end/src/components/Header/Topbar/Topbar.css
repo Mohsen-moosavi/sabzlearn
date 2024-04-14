@@ -1,0 +1,42 @@
+.topbar {
+  color: var(--text-color-light);
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.topbar::after {
+  content: '';
+  position: absolute;
+  width: calc(100% - 6.5rem);
+  height: 1px;
+  bottom: 0;
+  background-color: rgb(212, 212, 212);
+}
+
+.topbar__menu {
+  padding: 0;
+  margin: 0;
+}
+
+.topbar__item {
+  margin-left: 2rem;
+}
+
+.topbar__kit {
+  gap: 1.5rem;
+}
+
+.topbar__supporter {
+  border-left: 2px dotted gray;
+  padding-left: 1.5rem;
+}
+
+.topbar__supporter span {
+  color: var(--attention-color);
+}
+
+.topbar__user-icon {
+  margin-left: 0.5rem;
+  width: 2rem;
+}
+

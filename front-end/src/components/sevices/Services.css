@@ -1,0 +1,66 @@
+.services {
+    padding: 6rem 0 2rem;
+}
+
+.service {
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3rem;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem var(--shadow-color);
+}
+
+.service__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(to right, rgba(0, 0, 163, 0.1), rgba(0, 0, 163, 0.4));
+}
+
+.service__shadow:hover {
+    background: linear-gradient(to right, rgba(0, 0, 163, 0.1), rgba(43, 206, 87, 0.499));
+}
+
+.service--vertical {
+    height: 51.5rem;
+}
+
+.service--security {
+    background-image: url(./../../../public/image/security.jpg);
+}
+
+.service--article {
+    background-image: url(./../../../public/image/article.jpg);
+}
+
+.service--front-end {
+    background-image: url(./../../../public/image/front-end.jpg);
+}
+
+.service--back-end {
+    background-image: url(./../../../public/image/back-end.jpg);
+}
+
+.service--soft-skill {
+    background-image: url(./../../../public/image/soft-skill.jpg);
+}
+
+.service__title {
+    font-size: 2rem;
+}
+
+.service__bold-title {
+    font-size: 4rem;
+    font-family: var(--main-font-black);
+    line-height: 1.3;
+}
+
+.service a:hover h4{
+    color: #fff;
+}

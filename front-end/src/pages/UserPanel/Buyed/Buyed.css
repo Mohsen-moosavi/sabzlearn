@@ -1,0 +1,71 @@
+  .courses-header__panel {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .courses-header__title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .courses-header__list {
+    display: flex;
+    border-bottom: 2px solid var(--primary-color);
+  }
+  .courses-header__item {
+    margin: 1rem 0 1rem 3.5rem;
+  }
+  .courses-header__link__panel {
+    font-size: 1.5rem;
+    color: var(--anty-body-color);
+  }
+  .courses-header__link-active {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  .main__box {
+    margin: 2rem 0;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .main__box-img-link{
+    display: block;
+  }
+  .main__box-img {
+    width: 100%;
+    margin-bottom: -1rem;
+  }
+  .main__box-left {
+    padding-right: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .main__box-title {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .main__box-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    padding-left:1rem;
+  }
+  .main__box-all-text {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  .main__box-completed-text {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  .main__box-all-value , .main__box-completed-value{
+    color: var(--anty-body-color);
+  }

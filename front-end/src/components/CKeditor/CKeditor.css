@@ -1,0 +1,16 @@
+.ck.ck-toolbar , .ck-content{
+    background-color: var(--body-color) !important;
+    background: var(--body-color) !important;
+}
+
+.ck.ck-content{
+    color: var(--anty-body-color);
+}
+
+.ck.ck-content.ck-editor__editable{
+    height: 40rem;
+}
+
+.ck.ck-button__label{
+    color: #fff !important;
+}

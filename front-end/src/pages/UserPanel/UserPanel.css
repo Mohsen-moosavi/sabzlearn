@@ -1,0 +1,148 @@
+  /* ============================== Content Header Style ============================== */
+  
+  .content {
+    display: block;
+  }
+  
+  .content-header {
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 1.7rem 0;
+  }
+  .content-header__subtitle {
+    font-size: 1.3rem;
+  }
+  /* ============================== Content Header Style ============================== */
+  
+    .content-main {
+    margin: 3rem 0;
+  }
+
+  .p-user-main {
+    border-right:2px solid var(--primary-color);
+    padding-right: 2rem;
+  }
+  
+  /* ============================== Content Main Style ============================== */
+
+  /* ============================== Content Main Style ============================== */
+  
+  /* ============================== Footer Style ============================== */
+  .footer-widgets {
+    background-color: #f0f2f7;
+    border-radius: 1rem;
+    padding: 4rem 3.5rem;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  .footer-widgets::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 50rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    bottom: -1.5rem;
+    z-index: -1;
+  }
+  .footer-widgets__title {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .footer-widgets__title::before {
+    content: "";
+    position: absolute;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    border-radius: 0.7rem;
+    opacity: 0.3;
+    transform: rotate(45deg);
+    right: 1rem;
+  }
+  .footer-widgets__text {
+    color: #7d7e7f;
+  }
+  .footer-widgets__links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-widgets__link {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .footer__copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f7;
+    padding: 3rem 0;
+  }
+  .footer__copyright-text {
+    color: var(--dark-color);
+  }
+  /* ============================== Footer Style ============================== */
+  
+  /* ============================== Helper Class ============================== */
+  .title::before {
+    content: "";
+    position: absolute;
+    right: -1rem;
+    width: 0.4rem;
+    height: 4.4rem;
+    border-radius: 5rem;
+    background-color: var(--primary-color);
+    transform: rotate(8deg);
+  }
+  .title::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250px;
+    height: 60%;
+    background-color: rgba(43, 206, 86, 0.2);
+  }
+  .title {
+    font-size: 2.3rem;
+    color: #444446;
+    font-weight: bold;
+    line-height: 1.2;
+    position: relative;
+  }
+  /* ============================== Helper Class ============================== */
+  
+  /* ============================== Slider Style ============================== */
+  .swiper-container {
+    height: 36rem;
+    cursor: grab;
+    overflow: hidden;
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: -4rem !important;
+  }
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    transition: all 400ms ease;
+    opacity: 1 !important;
+    background: transparent;
+    border: 2px solid var(--primary-color);
+  }
+  .swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+    transition: all 400ms ease;
+    opacity: 1 !important;
+    width: 35px !important;
+    border-radius: 10px;
+  }
+  /* ============================== Slider Style ============================== */
+  

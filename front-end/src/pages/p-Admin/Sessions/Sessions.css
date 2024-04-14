@@ -1,0 +1,21 @@
+.season-section{
+    border-radius: 2rem;
+    padding: 2rem 1rem;
+    box-shadow: 0 0 1rem var(--shadow-color);
+    margin: 2rem 0 2rem;
+    background : var(--primary-color);
+}
+
+.season-selection-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.season-section .p-admi-selection{
+    background-color: var(--primary-color);
+    border-color: #fff;
+    color: #fff;
+    outline: none;
+}

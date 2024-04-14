@@ -1,0 +1,114 @@
+.session-section{
+    margin-top: 2rem;
+}
+
+.session-section *{
+    color: var(--anty-body-color);
+}
+
+.session-sidebar{
+    box-shadow: inset -3px -3px 7px #ffffff90 , inset 2px 2px 7px #00000090;
+    padding: 1rem;
+    border-radius: 2rem;
+    max-height: 60rem;
+    overflow-y: auto;
+}
+
+.session-sidebar__header-link{
+    display: block;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 4rem;
+}
+
+.session-sidebar__haeder-icon , .session-sidebar-topics__list-item-icon{
+    margin-left: 0.5rem;
+    fill: var(--primary-color) !important;
+}
+
+.session-sidebar-topics__list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.session-sidebar-topics__list-item::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 1px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.session-sidebar-topics__list-item-link{
+    line-height: 1.3;
+}
+
+.episode-haeder{
+    margin-bottom: 2rem;
+}
+
+.episode-header__left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.episode-header__left-text{
+    max-width: 20rem;
+    display: inline-block;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.episode-haeder , .episode-header__right .episode-header__right-back-link , .episode-content__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    gap: 1rem;
+}
+
+.episode-header__icon{
+    color: var(--primary-color);
+}
+
+.episode-header__right-home-icon{
+    margin-right: 1rem;
+}
+
+.episode-content__video{
+    width: 100%;
+}
+
+.episode-content__bottom{
+    margin: 2rem 0;
+}
+
+.episode-content__backward-icon{
+    margin-left: 1rem;
+}
+
+.episode-content__forward-icon{
+    margin-right: 1rem;
+}
+
+.episode-header__icon,
+.episode-content__forward-icon,
+.episode-content__backward-icon{
+    fill: var(--primary-color) !important;
+}
+
+.active-session{
+    background-color: #0000a320;
+    border-radius: 1rem;
+}

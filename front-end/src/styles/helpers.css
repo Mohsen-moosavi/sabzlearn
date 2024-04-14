@@ -1,0 +1,25 @@
+.d-flex-space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-title{
+  margin: 2rem 0;
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: var(--primary-color);
+}
+
+.app-text{
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.alert.alert-warning , .alert.alert-danger{
+  box-shadow: 0 0 1rem var(--shadow-color);
+  padding: 2rem;
+}

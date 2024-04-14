@@ -1,0 +1,14 @@
+.main__link {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 1.5rem;
+    transition: all 300ms ease;
+    border-radius: 5px;
+    color: var(--primary-color);
+  }
+  .main__link:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
