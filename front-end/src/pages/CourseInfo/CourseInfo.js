@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Footer from '../../components/Footer/Footer'
 import BreadCrumb from '../../components/BreadCrumb/BreadCrumb'
 import "./CourseInfo.css"
@@ -14,8 +14,11 @@ import Header from '../../components/Header/Header'
 import { FaComments, FaEye, FaFacebookF, FaGraduationCap, FaLink, FaLock, FaTelegramPlane, FaTwitter, FaUserGraduate, FaYoutube } from 'react-icons/fa'
 import { FaChalkboardUser } from "react-icons/fa6";
 import DOMPurify from 'dompurify'
+import AuthContext from '../../contexts/AuthContext'
 
 export default function CourseInfo() {
+
+  const user = useContext(AuthContext)
 
   const { courseName } = useParams()
   const [courseInfo, setCourseInfo] = useState({})
@@ -301,7 +304,7 @@ export default function CourseInfo() {
                                       <div class="introduction__accordion-right">
                                         <span class="introduction__accordion-count">{i + 1}</span>
                                         <FaYoutube class="introduction__accordion-icon" />
-                                        <Link to={`/session/${courseName}/${session._id}`} class="introduction__accordion-link">
+                                        <Link to={user.isLoggedIn ? `/session/${courseName}/${session._id}` : '/login'} class="introduction__accordion-link">
                                           {session.title}
                                         </Link>
                                       </div>

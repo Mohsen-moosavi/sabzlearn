@@ -1,14 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './SessionInfo.css'
 import Footer from './../../components/Footer/Footer'
-import { Link, useParams, useLocation } from 'react-router-dom'
+import { Link, useParams, useLocation, useNavigate } from 'react-router-dom'
 import { BASE_URL } from '../../Utils/Variables/ApiVariables'
 import Header from '../../components/Header/Header'
 import { FaArrowLeft, FaArrowRight, FaBookOpen, FaHome } from 'react-icons/fa'
 import { FaCirclePlay } from 'react-icons/fa6'
 import { IoIosArrowForward } from 'react-icons/io'
+import AuthContext from '../../contexts/AuthContext'
 
 export default function SessionInfo() {
+
+    const user = useContext(AuthContext)
+    const navigate = useNavigate()
 
     const { courseName, sessionID } = useParams()
     const [sessionInfos, setSessionInfos] = useState({})
@@ -17,11 +21,19 @@ export default function SessionInfo() {
     const location = useLocation()
 
     useEffect(() => {
-        getMainInfos()
+        if (user.isLoggedIn) {
+            getMainInfos()
+        } else {
+            navigate('/login')
+        }
     }, [])
 
     useEffect(() => {
-        getMainInfos()
+        if (user.isLoggedIn) {
+            getMainInfos()
+        } else {
+            navigate('/login')
+        }
     }, [location])
 
     function getMainInfos() {
@@ -29,7 +41,7 @@ export default function SessionInfo() {
             headers: {
                 Authorization: `Bearer ${JSON.parse(localStorage.getItem("user")).token}`
             }
-        }).then(res =>res.ok ? res.json() : [])
+        }).then(res => res.ok ? res.json() : [])
             .then(result => {
                 setSessionInfos(result.session)
                 setSessionsList(result.sessions)
