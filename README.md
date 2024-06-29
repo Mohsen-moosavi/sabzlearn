@@ -3,7 +3,7 @@
 
 یک سایت کامل همراه با پنل مدیریتی و پنل کاربری
 
-![demo](https://s8.uupload.ir/files/screenshot_29-6-2024_9412_localhost_pdla.jpeg)
+<img src="https://s8.uupload.ir/files/screenshot_29-6-2024_9412_localhost_pdla.jpeg" alt="demo"/>
 --
 
 ## نحوه استفاده و نمایش پروژه
